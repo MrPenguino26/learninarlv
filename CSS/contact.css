@@ -1,0 +1,142 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  color: #065c6f;
+  font-size: 5.625rem;
+  margin: auto;
+  font-family: 'Sacramento', cursive;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+h2{
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color: #000000;
+  font-family: 'Almendra', serif;
+  font-size: 1.2rem;
+}
+h4{
+  color: #0000ff;
+  font-family: 'Langar', cursive;
+  font-size: 1.0rem;
+}
+p{
+  line-height: 2;
+}
+a{
+  color: #0000ff;
+  font-family: 'Langar', cursive;
+  font-size: 1.0rem;
+}
+table{
+  margin-top: 60px;
+}
+hr{
+  margin: 70px auto 20px auto;
+  border-style: dotted none none;
+  width: 7%;
+  border-width: thick;
+  border-color: #065c6f;
+  height: 2px;
+}
+.topnav{
+  background-color: #065c6f;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif
+}
+.topnav a:hover {
+  background-color: #000000;
+  color: white;
+}
+.topnav active {
+  background-color: #000000;
+  color: white;
+}
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+}
+.math-sign{
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  transform: rotate(-20deg);
+}
+.microscope{
+  position: absolute;
+  top: 65%;
+  left:15%;
+  transform: rotate(25deg);
+}
+.presentation{
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  transform: rotate(-20deg)
+      ;
+}
+.open-book{
+  position: absolute;
+  top: 65%;
+  right: 15%;
+  transform: rotate(25deg);
+}
+.middle-container{
+  margin: 0 15% 100px 15%;
+  padding-bottom: 200px;
+}
+.mid1{
+  float: left;
+  width: 50%;
+}
+.mid2{
+  float: right;
+  width: 50%;
+}
+.passion{
+  float: left;
+  width: 35%;
+}
+.expert{
+  float: right;
+}
+.variety{
+  float:left;
+}
+.inspiration{
+  float: right;
+}
+.description{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.form{
+  text-decoration: underline;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin-top: 10px;
+  padding: 50px 0 20px 0;
+}
+.nowrap{
+  white-space: nowrap;
+}
